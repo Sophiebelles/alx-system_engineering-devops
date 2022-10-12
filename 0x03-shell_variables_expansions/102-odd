@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n |mcut -b 6- | grep *[11579] | cut -f2
